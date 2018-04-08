@@ -5,7 +5,7 @@ try:
 except:
     print("Bad Score - Please only enter numbers")
 # To check if out of range
-if clean_number > 1.0 and clean_number < 0.0:
+if clean_number > 1.0 or clean_number < 0.0:
     print("Bad score - number is out of range")
 elif clean_number >= 0.9:
     print("A")
